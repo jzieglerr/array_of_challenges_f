@@ -6,16 +6,23 @@ donut_box2 = ["Choc Sprinkles", "Choc Sprinkles", "double choc cake", "double ch
 #But there's a problem. We don't know which donut belongs to which one of your classmates!
 
 
-
 #Create a hash where donuts are assigned to specific classmates
 
+jessica = {"lena" => "Old Fashioned", "zara" => "Glazed", "Theo" => "Old Fashioned"}
 
 #Return the donut of a specific person
 
+puts jessica["lena"]
 
 #Find three hash methods and experiment with them here:
 
+puts jessica.length
 
+puts jessica.flatten
+
+puts "TYPE SOMETHING TO SEE IF IT IS IN THE HASH"
+
+puts jessica.has_key?(gets.chomp)
 
 #BONUS: Iterate through the hash and print a sentence for each student/donut pair. Example: "James calls dibs on a chocolate cake donut!"
 
