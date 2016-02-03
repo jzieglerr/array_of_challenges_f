@@ -54,7 +54,8 @@ print final_student_array
 puts "
 "
 
-
-
+brilliant_star_students.each_with_index do |value, index| 
+	puts " #{adjectives[index].capitalize} #{value} "
+end
 
 
