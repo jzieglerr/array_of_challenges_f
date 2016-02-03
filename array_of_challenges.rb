@@ -45,11 +45,7 @@ puts Array.new(19, "Jessica")
 		#Extra Bonus: Match the adjective with the student by index
 
 			adjectives = ["adventurous", "ambitious", "brave", "bright", "charming", "courageous", "creative", "determined", "dynamic", "diplomatic", "enthusiastic", "helpful", "honest", "humorous", "inventive", "persistent", "powerful", "reliable", "resourceful", "sincere", "thoughtful", "witty"]
- 
 
-final_student_array = {"adventerous" => "Kelly", "ambitious" => "Henry", "brave" => "Theo", "bright" => "Jennifer", "Charming" => "Michelle", "courageous" => "Vedant", "creative" => "Lena", "determined" => "Zara", "dynamic" => "Jessica"}
-
-print final_student_array
 
 puts "
 "
